@@ -1,8 +1,8 @@
 # Laboratory Work N3
 ## V32
 ### Grammar
-P = {
-S->abAB
+P = {\n
+S->abAB\n
 A->aBSBab
 A->BS
 A->aA
