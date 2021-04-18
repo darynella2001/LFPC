@@ -43,7 +43,7 @@ for i in range(len(nodes)):
     if len(list(right[i])) == 2:
         terminal = list(right[i])[1]
     map[nodes[i]][non] = terminal
-# print(map)
+print(map)
 
 def accepts(transitions,initial,accepting,s):
     state = initial
